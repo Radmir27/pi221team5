@@ -11,17 +11,17 @@
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <style type="text/css">
         #header {
-        height: 100px;
+        height: 100px; width: 20px;
         <label for="first">Основание треугольника:</label>
         <input type="text" name="first" id="first" value="${first}">
         }
         #header {
-        height: 160px;
+        height: 160px; width: 20px;
         <label for="second">Высота треугольника: </label>
         <input type="text" name="second" id="second" value="${second}">
         }
         #headaer {
-        height: 240px;
+        height: 240px; width: 20px;
         <input type="submit" name="sign" value="Calculate">
         } 
         </style>
