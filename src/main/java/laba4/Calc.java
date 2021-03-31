@@ -48,7 +48,7 @@ public class Calc extends HttpServlet {
 				first_try=0;
 				second_try=0;	
 			}
-			if (first_try <= 0 && second_try <= 0) {
+			if (first_try <= 0 || second_try <= 0) {
 				first_try = 0;
 				second_try = 0;
 			}
