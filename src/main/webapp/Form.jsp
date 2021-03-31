@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Калькулятор - площадь равнобедреннего треугольника</title>
 </head>
-<body bgcolor="khaki" leftmargin="40">
+<body bgcolor="#DAD8FE" leftmargin="40">
 <h1>Калькулятор - площадь равнобедреннего треугольника</h1>>
       <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <p><label for="first">Основание треугольника:</label>
