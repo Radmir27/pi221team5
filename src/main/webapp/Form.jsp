@@ -9,11 +9,22 @@
 <body>
 <h1>Калькулятор - площадь равнобедреннего треугольника</h1>>
     <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
+        <style type="text/css">
+        #header {
+        height: 100px;
         <label for="first">Основание треугольника:</label>
         <input type="text" name="first" id="first" value="${first}">
+        }
+        #header {
+        height: 160px;
         <label for="second">Высота треугольника: </label>
         <input type="text" name="second" id="second" value="${second}">
+        }
+        #headaer {
+        height: 240px;
         <input type="submit" name="sign" value="Calculate">
+        } 
+        </style>
     </form>
     </body>
 </html>
