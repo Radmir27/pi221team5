@@ -1,4 +1,12 @@
-deploy:
-	provider: heroku
-	api_key:
-		secure:
+language: java
+before_script:
+- echo "String build"
+script:
+- echo "hello"
+after_script:
+- echo "Script finished"
+after success:
+- echo "Build ready"
+- ls -l $TRAVIS_BUILD_DIR/target
+after_failure:
+- echo "Build failure"
