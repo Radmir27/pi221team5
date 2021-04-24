@@ -11,7 +11,7 @@
       <form action="${pageContext.request.contextPath}/JavaCalc" method="post">
         <p><label for="first">Основание треугольника:</label>
         <input type="text" name="first" id="first" value="${first}"></p>
-        <p><label for="second">Высота треугольника: </label>
+        <p><label for="second">Высота треугольника (мм): </label>
         <input type="text" name="second" id="second" value="${second}"></p>
         <p><input type="submit" name="sign" value="Calculate"></p>
     </form>
